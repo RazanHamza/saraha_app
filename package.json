@@ -1,0 +1,27 @@
+{
+  "name": "saraha_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start:dev": "node --watch src/index.js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "crypto": "^1.0.1",
+    "express": "^5.2.1",
+    "google-auth-library": "^11.1.0",
+    "joi": "^18.2.9",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.10.2",
+    "multer": "^2.4.0",
+    "nodemailer": "^10.2.1",
+    "redis": "^6.3.0"
+  }
+}
